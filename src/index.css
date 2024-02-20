@@ -1,13 +1,242 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  font-size: 62.5%; /* 16px * 62.5 = 10px = 1rem */
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+
+.screen{
+padding: 1%;
+}
+
+body {
+background: #ffead9;
+font-family: sans-serif;
+}
+
+
+
+.topnav {
+background-color: #51000b;
+overflow: hidden;
+padding-left: 1%;
+padding-right: 1%;
+}
+
+.topnav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.topnav li {
+float: left;
+color: #ffffea;
+text-align: center;
+padding: 14px 16px;
+font-size: 17px;
+font-weight: bold;
+}
+
+.topnav-right {
+float: right;
+}
+
+.topnav ul li:hover
+{
+cursor: pointer;
+background:#65021a;
+border-radius: 3px;
+}
+
+.menu-bar-right {
+float: right;
+}
+
+.details {
+position: relative;
+border-radius: 3px;
+width: 50%;
+height: 50%;
+padding: 5px;
+background: #ffffea;
+margin-top: 2%;
+margin-right: 5%;
+float: right;
+margin-bottom: 2%;
+
+}
+
+.details .details-text {
+position: relative;
+width: 50%;
+float: right;
+background-color: #ffdec2;
+}
+
+.details .details-text ul{
+list-style-type:none;
+padding-left: 3rem;
+}
+
+.details .details-text li{
+list-style-type:none;
+margin: 2px;
+margin-left: -15px;
+padding: 2px;
+}
+
+
+.details .details-text p {
+font-size: 15px;
+font-family: cursive;
+margin-left: 2%;
+font-weight: bold;
+}
+
+.details .details-text h {
+font-size: 15px;
+font-family: fantasy;
+}
+
+
+img {
+position: relative;
+width: 50%;
+height: 70%;
+float: left;
+padding: 0.1rem;
+}
+
+.cocktail-list {
+border-radius: 5px;
+padding: 10px;
+width: 20%;
+border-radius: 3px;
+text-align: center;
+background-color:#ffffea;
+}
+
+.cocktail-list ul li {
+list-style-type:none;
+padding: 2px;
+font-size: 20px;
+margin: 2px;
+color: #51000b;
+font-family: fantasy;
+}
+
+.cocktail-list ul li:hover{
+cursor: pointer;
+font-size: 22px;
+font-weight: bold;
+background-color: rgb(251, 247, 227);
+border-radius: 3px;
+}
+
+.container-cocktail-list {
+padding: 2rem;
+}
+
+.container-search {
+padding: 5px;
+display: flex;
+height: 50px;
+justify-content: center;
+}
+
+#search-input {
+border-radius: 3px;
+border-style: none;
+width: 35%;
+}
+
+.btn-container {
+height: 100%;
+margin-left: 5px;
+}
+
+.btn-search {
+border-radius: 3px;
+border-style: none;
+height: 100%;
+width: 100%;
+}
+
+#search-btn {
+width: 70px;
+background-color:#65021a;
+color: white;
+font-weight: bold;
+}
+
+#search-btn:hover{
+cursor: pointer;
+}
+
+.ingredients-container {
+border-radius: 5px;
+background-color: #ffffea;
+text-decoration: none;
+margin: 2%;
+text-align: center;
+width: 30%;
+}
+
+.ingredients-container ul li {
+list-style-type:none;
+padding: 3px;
+font-size: 15px;
+margin: 2px;
+color: #51000b;
+font-family: fantasy;
+font-style: italic;
+}
+
+.ingredients-container ul li:hover{
+cursor: pointer;
+font-size: 18px;
+font-weight: bold;
+background-color: rgb(251, 247, 227);
+border-radius: 3px;
+}
+
+#btn-search-by-ingredients {
+width: 70px;
+background-color:#65021a;
+color: white;
+font-weight: bold;
+border-style: none;
+margin-left: 2px;
+border-radius: 3px;
+}
+
+#btn-search-by-ingredients:hover {
+cursor: pointer;
+padding: -4px;
+background-color: #881a35;
+}
+
+.fieldest-container{
+  display: inline;
+}
+
+.fieldest {
+  align-items: center;
+  display: inline;
+  border: none;
+}
+
+.List ul li {
+  margin: 5px;
+  float: left;
+  list-style: none;
+}
+
+
+
